@@ -1,3 +1,4 @@
+
  body{
     overflow-x: hidden;
     overflow-y: hidden; 
@@ -6,108 +7,31 @@
     position: absolute;
     background-image: url('/heistCrew.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: top;
     z-index: -2;
   }
   
   #display {
-    color: rgb(255, 251, 251);
+    color: rgb(255, 255, 255);
     font-size: 2.5em;
     top: 10px;
     padding-bottom: 20px;
     opacity: 0.80;
+    width:200px;
+    margin:auto;
     text-align: center;
   }
   
   #date {
-    color: rgb(255, 251, 251);
+    color: rgb(255, 255, 255);
     font-size: 1.0em;
     font-family: Georgia,Times, serif;
     font-weight: normal;
     letter-spacing: 0.2em;
-    opacity: 0.6;
-    text-align: center;
-  }
-   
-
-    
-
-  #content {
-    height: 45em;
+    opacity: 0.80;
+    width:250px;
     margin:auto;
-    transition: ease-in-out;
-    transition: 0.5s;
-    
-
-  } p {
-    max-width: 30em;
-    color: rgb(223, 18, 18);
-    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
-    letter-spacing:0.1em;
-    text-align:center;
-    margin: 40px auto;
-    text-transform: lowercase;
-    line-height: 145%;
-    font-size: 2em;
-    font-variant: small-caps;
-  }
-  
-
-  
-  #b-nav {
-    padding-bottom: 5em;
-    position: fixed;
-    width: 100%;
-    bottom: 2em;
-    display: flex;
-  }
-  
- 
-  
-
-  #gen {
-    outline: none;
-    padding-top: 5px;
-    font-size: 15px;
-    text-decoration: none;
-    opacity: 0.6;
-    background-color: black;
-    color: white;
-    border: thin solid white;
-    height: 60px;
-    width: 150px;
-    border-radius: 2px;
-    transition: 0.5s;
-    padding-bottom: 5px;
-    margin-top: 100px;
     text-align: center;
-    border-radius: 50px;
-    margin: auto;
-  }
-  
-  #gen:hover {
-    background-color: rgb(136, 8, 8);
-    color: rgb(255, 253, 253);
-    border: thin solid black;
-    opacity: 0.8;
-    cursor: pointer;
-  }
-  
-
-
-  
-  @media screen 
-   and (max-device-width: 800px) 
-    and (max-device-height: 640px) 
-    and (-webkit-device-pixel-ratio: 2) 
-    and (orientation: portrait) {
-      p {
-        font-size: 1em;
-      }
-  }
-  
-  
 
   }
 
@@ -130,14 +54,6 @@
     font-size: 2em;
     font-variant: small-caps;
   }
-
-  
-  
-  
-
- 
-  
-
   #gen {
     outline: none;
     font-size: 15px;
@@ -154,7 +70,6 @@
     border-radius: 50px;
     margin: auto;
   }
-  
   #gen:hover {
     background-color: rgb(136, 8, 8);
     color: rgb(255, 253, 253);
@@ -163,11 +78,9 @@
     cursor: pointer;
   }
   
-
-
-  
   @media screen and (max-width: 800px) and (max-height: 640px) {};
       
   
   
   
+
