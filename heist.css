@@ -3,11 +3,12 @@
     overflow-y: hidden; 
     height: 100%;
     width: 100%;
-    background-image: url('images/heistCrew.jpg');
+    position: absolute;
+    background-image: url('/heistCrew.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
- 
+    z-index: -2;
   }
   
   #display {
@@ -18,8 +19,7 @@
     opacity: 0.80;
     width:200px;
     margin:auto;
-    
-
+    text-align: center;
   }
   
   #date {
@@ -31,11 +31,9 @@
     opacity: 0.80;
     width:250px;
     margin:auto;
-    
-  }
-   
+    text-align: center;
 
-    
+  }
 
   #content {
     height: 45em;
@@ -74,11 +72,11 @@
     border: thin solid white;
     border-radius: 2px;
     transition: 0.5s;
+    padding-bottom: 5px;
+    margin-top: 100px;
     text-align: center;
-    margin:auto;
- 
-    
-    
+    border-radius: 50px;
+    margin: auto;
   }
   
   #gen:hover {
