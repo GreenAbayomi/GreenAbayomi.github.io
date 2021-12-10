@@ -1,0 +1,99 @@
+ body{
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    height: 100%;
+    width: 100%;
+    background-image: url('images/heistCrew.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+ 
+  }
+  
+  #display {
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    top: 10px;
+    padding-bottom: 20px;
+    opacity: 0.80;
+    width:200px;
+    margin:auto;
+    
+
+  }
+  
+  #date {
+    color: rgb(255, 255, 255);
+    font-size: 1.0em;
+    font-family: Georgia,Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    opacity: 0.80;
+    width:250px;
+    margin:auto;
+    
+  }
+   
+
+    
+
+  #content {
+    height: 45em;
+    margin:auto;
+    transition: ease-in-out;
+    transition: 0.5s;
+    
+
+  } p {
+    max-width: 30em;
+    color: rgb(253, 253, 253);
+    font-family:Georgia,Times, serif;
+    letter-spacing:0.1em;
+    text-align:center;
+    margin: 40px auto;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 2em;
+    font-variant: small-caps;
+  }
+
+  
+  
+  
+
+ 
+  
+
+  #gen {
+    outline: none;
+    font-size: 15px;
+    text-decoration: none;
+    opacity: 0.6;
+    background-color: rgb(243, 240, 240);
+    color: rgb(252, 9, 9);
+    border: thin solid white;
+    border-radius: 2px;
+    transition: 0.5s;
+    text-align: center;
+    margin:auto;
+ 
+    
+    
+  }
+  
+  #gen:hover {
+    background-color: rgb(136, 8, 8);
+    color: rgb(255, 253, 253);
+    border: thin solid black;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+
+
+  
+  @media screen and (max-width: 800px) and (max-height: 640px) {};
+      
+  
+  
+  
