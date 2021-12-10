@@ -4,7 +4,7 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    background-image: url('images/heistCrew.jpg');
+    background-image: url('/heistCrew.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -57,14 +57,7 @@
   }
   
 
-  
-  #b-nav {
-    padding-bottom: 5em;
-    position: fixed;
-    width: 100%;
-    bottom: 2em;
-  }
-  
+ 
  
   
 
