@@ -51,7 +51,7 @@ var quotes = ["Blank", "\"To Love, You Need Courage\" <br/> - Nairobi",
 "\"Happiness Is Like Lightning, Blink And You Miss It. After That Came The Fall. When You Reach Heaven The Fall Is Devastating\" - <br/> Tokyo ",
 "\"Love Can\'t Be Timed. It Has To Be Lived.\" <br/>- Berlin",
 "\"In This World, Everything Is Governed By Balance. There\'s What You Stand To Gain And What You Stand To Lose. And When You Think You\'ve Got Nothing To Lose, You Become Overconfident\" <br> - Professor",
-"]\"After All, What\'s More Human Than The Fight For Survival\"  <br> - Tokyo"];
+"\"After All, What\'s More Human Than The Fight For Survival\"  <br> - Tokyo"];
 
 
 function changeBG () {
