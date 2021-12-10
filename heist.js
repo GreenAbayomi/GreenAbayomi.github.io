@@ -55,8 +55,8 @@ var quotes = ["Blank", "\"To Love, You Need Courage\" <br/> - Nairobi",
 
 
 function changeBG () {
-  var background = ['url("images/heistCrew.jpg")' ,
-  'url("images/heist4.jg")' ,
+  var background = ['url("/heistCrew.jpg")' ,
+  'url("/heist4.jg")' ,
      ];
 
 var body = document.getElementsByTagName("body");
