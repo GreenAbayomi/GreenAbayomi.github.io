@@ -56,7 +56,7 @@ var quotes = ["Blank", "\"To Love, You Need Courage\" <br/> - Nairobi",
 
 function changeBG () {
   var background = ['url("images/heistCrew.jpg")' ,
-  'url("images/heist4.jg")' ,
+  'url("images/heistimg2.jpeg")' ,
      ];
 
 var body = document.getElementsByTagName("body");
@@ -67,20 +67,11 @@ setInterval (changeBG, 2000);
 
 
 function genQuote() {
-  var randNum = Math.floor(Math.random() * 8) + 1;
+  var randNum = Math.floor(Math.random() * 8) ;
   document.getElementById('quote').innerHTML = quotes[randNum];
-  var tweetQuote = quotes[randNum].split(' ').join('%20');
-  tweetQuote = tweetQuote.split('<br>').join('');
-  tweetQuote = "https://twitter.com/intent/tweet?text=" + tweetQuote.split('"').join('')
-  $('.twitter-share-button').attr('href', tweetQuote);
-
-  // var selectBG = Math.floor(Math.random() * 3) + 1;
-  // document.getElementsByTagName("body")[0].style.background = background[selectBG];
+  
  
   }
   
 
-// function genQuote(){
-//    var selectBG = Math.floor(Math.random() * 3) + 1;
-//    document.getElementsByTagName("body").style.backgroundImage = background[selectBG];
 
