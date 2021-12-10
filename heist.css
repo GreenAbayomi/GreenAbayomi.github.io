@@ -43,7 +43,8 @@
     transition: 0.5s;
     
 
-  } p {
+  }
+p {
     max-width: 30em;
     color: white;
     font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
@@ -67,17 +68,17 @@
     font-size: 15px;
     text-decoration: none;
     opacity: 0.6;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: red;
     border: thin solid white;
-    height: 60px;
-    width: 150px;
+    height: 80px;
+    width: 200px;
     border-radius: 2px;
     transition: 0.5s;
     padding-bottom: 5px;
-    margin-top: 100px;
-    margin-bottom:30px;
-    margin-left: 300px;
+    margin-top: 0;
+/*     margin-bottom:30px;
+    margin-left: 300px; */
     text-align: center;
     border-radius: 50px;
     
