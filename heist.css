@@ -60,6 +60,7 @@
     position: fixed;
     width: 100%;
     bottom: 2em;
+    display: flex;
   }
   
  
