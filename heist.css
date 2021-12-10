@@ -76,6 +76,7 @@
     transition: 0.5s;
     padding-bottom: 5px;
     margin-top: 100px;
+    margin-bottom:30px;
     margin-left: 300px;
     text-align: center;
     border-radius: 50px;
@@ -94,14 +95,7 @@
 
 
   
-  @media screen 
-   and (max-device-width: 800px) 
-    and (max-device-height: 640px) 
-    and (-webkit-device-pixel-ratio: 2) 
-    and (orientation: portrait) {
-      p {
-        font-size: 1em;
-      }
-  }
+  @media screen and (max-width: 800px) and (max-height: 640px) {};
+  
   
   
