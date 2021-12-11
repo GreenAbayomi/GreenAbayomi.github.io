@@ -44,7 +44,7 @@ document.getElementById("date").innerHTML = days[d.getDay()]+" | "+d.getDate()+ 
 }
 
 //quote array
-var quotes = ["Blank", "\"To Love, You Need Courage\" <br/> - Nairobi",
+var quotes = ["\"To Love, You Need Courage\" <br/> - Nairobi",
 "\"In The End, Love is A Good Reason For Everything To Fall Apart\" <br/> - Tokyo",
  "\"Death Can Be The Greatest Opportunity Of Your Life\" <br/> - Berlin", 
 "\"It Takes Much More Courage To Be In Love Than It Does For War\" <br/> - Helsinki", 
