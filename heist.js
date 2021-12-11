@@ -51,19 +51,25 @@ var quotes = ["\"To Love, You Need Courage\" <br/> - Nairobi",
 "\"Happiness Is Like Lightning, Blink And You Miss It. After That Came The Fall. When You Reach Heaven The Fall Is Devastating\" - <br/> Tokyo ",
 "\"Love Can\'t Be Timed. It Has To Be Lived.\" <br/>- Berlin",
 "\"In This World, Everything Is Governed By Balance. There\'s What You Stand To Gain And What You Stand To Lose. And When You Think You\'ve Got Nothing To Lose, You Become Overconfident\" <br> - Professor",
-"]\"After All, What\'s More Human Than The Fight For Survival\"  <br> - Tokyo"];
+"\"After All, What\'s More Human Than The Fight For Survival\"  <br> - Tokyo"];
 
 
-function changeBG () {
-  var background = ['url("images/heistCrew.jpg")' ,
-  'url("images/heistimg2.jpeg")' ,
-     ];
+  
+  var background = ['url(images/imageHeist1.jpg)' ,
+                    'url(images/imageHeist2.jpg)' ,
+                    'url(images/imageHeist3.jpg)' ,
+                    'url(images/imageHeist4.jpg)' ,
+                    'url(images/imageHeist5.jpg)' , ];
 
-var body = document.getElementsByTagName("body");
-var bg = background[Math.floor(Math.random() * background.length)];
-body.style.backgroundImage = bg;
+
+var length = background.length;
+var currentImageNum = 1;
+document.getElementById("body").style.backgroundImage = background[0];
+
+function setBG () {
+  if (currentImageNum === length) {
+
 }
-setInterval (changeBG, 2000);
 
 
 function genQuote() {
